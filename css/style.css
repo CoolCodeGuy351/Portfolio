@@ -2,6 +2,8 @@
 
 
 /* Images in Top section */
+
+
 .dev-image{
 	max-width: 45%;
 	display: inline-block;
@@ -12,7 +14,10 @@
 	display: inline-block;
 }
 
+
 /* Horizontal Lines with h2 elements */
+
+
 h2 {
    width: 100%; 
    text-align: center; 
@@ -26,7 +31,9 @@ h2 span {
     padding:0 10px; 
 }
 
+
 /* About Me Section */
+
 
 .about-me-container{
   margin-top: 12%;
@@ -35,6 +42,7 @@ h2 span {
 
 
 /* About Me Section */
+
 
 .skillset-image-container{
  min-width: 100px;
@@ -48,4 +56,24 @@ h2 span {
   margin-bottom: 12%;
 }
 
-/*  */
+
+/* Project Section */
+
+
+.project-container{
+  padding-top: 12%;
+  margin-bottom: 12%;
+}
+
+
+/* About Me */
+
+
+.about-me-text{
+  margin-top: 10%;
+  margin-bottom: 12%;
+}
+
+.bottom-link{
+  text-decoration: none;
+}
