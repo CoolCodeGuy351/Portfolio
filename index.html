@@ -37,20 +37,20 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#me">About Me</a>
                 </li>
                 <li>
-                    <a href="#">About Me</a>
+                    <a href="#skill">My Skillset</a>
                 </li>
                 <li>
-                    <a href="#">My Skillset</a>
+                    <a href="#port">My Projects</a>
                 </li>
                 <li>
-                    <a href="#">My Projects</a>
+                    <a href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
-                </li>
+                    <a href="#menu-toggle" class="toggle-btn menu-toggle">Close Menu</a>
+                </li>                
             </ul>
         </div>
     </div>
@@ -61,16 +61,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center home-container">
-                        <h1 class="text-center">My name is Joe Mulick</h1>
+                        <h1 id="top" class="text-center">My name is Joe Mulick</h1>
                         <h4 class="text-center">I live in Los Angeles, California. I am a full stack web developer.</h4>
                         
-                        <a href="#menu-toggle" class="btn btn-default toggle-btn" id="menu-toggle">Toggle Menu</a>
+                        <a href="#menu-toggle" class="btn btn-default toggle-btn menu-toggle" >Toggle Menu</a>
                         <br>
                         
                         <img src="img/mern2.png" class="dev-image" alt="mern-stack"/>
-                        <img src="img/LAsmlgrey.png" class="la-image" alt="los-angeles-image"/>
+                        <img src="img/LAsmlgrey.png" width="480px" height="480px" class="la-image" alt="los-angeles-image"/>
 
-                        <br>
+                        <br id="me">
 
                         <h2><span>About Me</span></h2>
                         
@@ -80,7 +80,7 @@
                             <p>I attended UCLA extension coding bootcamp which was a tremendous experience where I learned to create and impliment full stack web applications using the most relevent web technologies. See my skill set below,<a href="#"> or check out my github</a></p>
                         </div>
 
-                        <h2><span>My Skillset</span></h2>
+                        <h2 id="skill"><span>My Skillset</span></h2>
                     </div>
                 </div>  <!-- First Row Div End -->     
                         <!-- http://konpa.github.io/devicon/ -->
@@ -181,55 +181,67 @@
                         </div> <!-- Dev Image Comtainer End -->
                 <div class="container">
 
-                    <h2><span>My Projects</span></h2>
+                    <h2 id="port"><span>My Projects</span></h2>
 
-                    <div class="row project-container">
-                        <div class="col">
+                                <div class="row project-container">
 
-                                <div class="col-lg-3 col-md-4 col-xs-6 ">
-                                    <a class="thumbnail" href="#">
-                                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                                    </a>
-                                </div>
+                                        <div class="col-lg-4 col-md-3">
+                                            <div class="thumbnail">
+                                              <img src="http://placehold.it/400x300" alt="Photos of Project">
+                                              <div class="caption">
+                                                <h3>Reel Films</h3>
+                                                <p>Reel films is a web application that shows movie trailers based on the a users pre-selected criteria. We sort the movie trailers by genre, rating, year released and much more to tailor a custom trailer watching experience to the end user. We utilized HMTL, CSS, Javascript, jQuery, Ajax API requests. We utilized 3 separate API’s including Youtube’s API, OMBD and The Movie DB. Click on the thumbnail to see the project which is hosted on github pages.</p>
+                                                <p><a href="https://joemulick.github.io/Reel-Films/" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3">
+                                                <div class="thumbnail">
+                                                  <img src="http://placehold.it/400x300" alt="Photos of Project">
+                                                  <div class="caption">
+                                                    <h3>Politihub</h3>
+                                                    <p> Politihub is a user authenticated React driven full stack web application that allows the user to see all the latest bills that are to be voted on on various levels of government. It allows users to browse between Local, State, House and Senate bills.. It also alows the user to filter their selection by a number of unique parameters. This web application uses React, handlebars, pulls from two separate api’s and has unique user authentication. Project not currently hosted but the source code can be accessed via the link.</p>
+                                                    <p><a href="https://github.com/ElmasSayed/PolitiHub" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                                  </div>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3">
+                                                <div class="thumbnail">
+                                                  <img src="http://placehold.it/400x300" alt="Photos of Project">
+                                                  <div class="caption">
+                                                    <h3>Crystal Collector</h3>
+                                                    <p> Crystal Collector is a simple front end javascript game that utilizes html, css, javascript, jquery and bootstrap.</p> 
+                                                    <p><a href="https://joemulick.github.io/CrystalsCollectorGame/" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                                  </div>
+                                                </div>
+                                        </div>
 
-                                <div class="col-lg-3 col-md-4 col-xs-6">
-                                    <a class="thumbnail" href="#">
-                                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-xs-6">
-                                    <a class="thumbnail" href="#">
-                                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 col-md-4 col-xs-6">
-                                    <a class="thumbnail" href="#">
-                                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                                    </a>
-                                </div>
-                        </div>
-                    </div>
+                                </div><!-- Row End -->
                 </div> <!-- End Container -->
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col text-center">
-                            <h2><span>Contact Me</span></h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2 id="contact" ><span>Contact Me</span></h2>
 
-                            <p class="about-me-text">If you have questions or inquiries please contact me via email or through one of below networks will get right back to you.</p>
+                        <p class="about-me-text">If you have questions or inquiries please contact me via email or through one of below networks will get right back to you.</p>
+<!-- 
+                            <div class="col-md-4 offset-md-4 text-center">
+                                <div>
+                                    <img src="../img/blk-email.png"/>
+                                </div>
+                                    <img src="../img/blk-linkedin.png"/>                                
+                                <div>
+                                    <img src="../img/blk-github-non.png" />
+                                </div>                            
+                            </div> -->
 
-                            <div>
-
-                            </div>
-
-                            <h2><span><a class="bottom-link" href="#">Back to top</span></h2>
+                        <h2><span><a class="bottom-link" href="#top">Back to top</span></h2>
 
 
-                        </div>
                     </div>
                 </div>
+            </div>
 
 
 
@@ -248,7 +260,7 @@
 
     <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
+    $(".menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });

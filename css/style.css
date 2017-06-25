@@ -48,12 +48,13 @@ h2 span {
  min-width: 100px;
  min-height: 100px;
 }
+
 .top-row{
   margin-top: 12%;
 }
 
 .row-two{
-  margin-bottom: 12%;
+  margin-bottom: 10%;
 }
 
 
@@ -71,9 +72,10 @@ h2 span {
 
 .about-me-text{
   margin-top: 10%;
-  margin-bottom: 12%;
+  margin-bottom: 5%;
 }
 
 .bottom-link{
+  margin-top: 12%;
   text-decoration: none;
 }
