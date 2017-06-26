@@ -1,22 +1,8 @@
 /* CSS */
 
-
-/* Images in Top section */
-
-
-.dev-image{
-	max-width: 45%;
-	display: inline-block;
+ul {
+  list-style-type: none;
 }
-
-.la-image{
-	max-width: 45%;
-	display: inline-block;
-}
-
-
-/* Horizontal Lines with h2 elements */
-
 
 h2 {
    width: 100%; 
@@ -32,12 +18,27 @@ h2 span {
 }
 
 
+/* Images in Top section */
+
+
+.dev-image{
+	max-width: 45%;
+	display: inline-block;
+}
+
+.la-image{
+	max-width: 45%;
+	display: inline-block;
+}
+
+
+
 /* About Me Section */
 
 
 .about-me-container{
-  margin-top: 12%;
-  margin-bottom: 12%;
+  margin-top: 9%;
+  margin-bottom: 9%;
 }
 
 
@@ -50,11 +51,18 @@ h2 span {
 }
 
 .top-row{
-  margin-top: 12%;
+  margin-top: 8%;
 }
 
 .row-two{
-  margin-bottom: 10%;
+  margin-bottom: 8%;
+}
+
+
+
+.bottom-link{
+  margin-top: 12%;
+  text-decoration: none;
 }
 
 
@@ -62,20 +70,21 @@ h2 span {
 
 
 .project-container{
-  padding-top: 12%;
-  margin-bottom: 12%;
+  padding-top: 6%;
+  margin-bottom: 10%;
+}
+
+/* Project On Hover Image Enlarge Effects */
+
+
+/* Project On Hover Image Enlarge Effects End */
+
+#back-to-top{
+  margin-top: 3%;
+}
+
+#contact{
+  margin-bottom:6%;
 }
 
 
-/* About Me */
-
-
-.about-me-text{
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
-
-.bottom-link{
-  margin-top: 12%;
-  text-decoration: none;
-}
